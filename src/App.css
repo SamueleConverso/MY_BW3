@@ -1,0 +1,241 @@
+/* NavBar css */
+
+.navbar-nav .nav-item .dropdown-toggle::after {
+  display: none;
+}
+
+.vertical-hr {
+  width: 2px;
+  height: 100%;
+  background-color: #ccc;
+  margin-right: 10px;
+}
+
+/*HomePage css */
+
+.home-container,
+.jobs-container,
+.nav-container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  .jobButton {
+    width: 48% !important;
+  }
+}
+.linkedin-style-button {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  color: #333;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.linkedin-style-button:hover {
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
+
+.linkedin-style-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombra più leggera */
+}
+
+.newPostButton,
+.commentButton {
+  background: none;
+  border: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hoverable-text {
+  cursor: pointer;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.hoverable-text:hover {
+  color: #1168c3 !important;
+  text-decoration: underline;
+}
+
+.newOfferButton:hover {
+  background-color: #9fc5ee9d;
+  opacity: 0.8;
+  color: #0a66c2;
+  transition: ease 0.3s;
+}
+
+.linkedin-style-button {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  color: #333;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.linkedin-style-button:hover {
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
+
+.linkedin-style-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list-icon {
+  color: #0a66c2;
+}
+
+.list-icon:hover {
+  transform: scale(1.1);
+}
+/*footer css */
+
+.footerText:hover {
+  text-decoration: underline !important;
+  color: #0a66c2 !important;
+}
+
+.footerText {
+  color: #828282;
+}
+
+.copyright,
+.footerText,
+.footerLanguage {
+  font-size: 12px;
+}
+
+.footer-container {
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.footerText:hover {
+  text-decoration: underline !important;
+  color: #0a66c2 !important;
+}
+
+.footerText {
+  color: #828282;
+}
+
+.copyright,
+.footerText,
+.footerLanguage {
+  font-size: 12px;
+}
+
+.footer-container {
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/*sidebar css */
+
+.cardAnalisi:hover {
+  transform: scale(1.1); /* Zoom al passaggio del mouse */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15); /* Maggiore ombra per un effetto più accentuato */
+}
+/*bottoni profile page */
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.custom-button {
+  font-size: 14px;
+  font-weight: bold;
+  color: gray;
+  padding: 5px 15px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #f3f3f3;
+}
+
+.custom-button:active,
+.custom-button.active {
+  color: #027c53;
+}
+
+.styled-button {
+  color: black;
+  width: 90px;
+  height: 30px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 2px;
+  cursor: pointer;
+  border: 1px solid gray;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.styled-button:hover {
+  background-color: #f3f3f3;
+}
+
+.styled-button:active {
+  background-color: #e5e5e5;
+}
+
+/*Bottone like*/
+.commentButton {
+  transition: background-color 0.3s ease, border-color 0.3s ease,
+    color 0.3s ease;
+  color: black;
+  border-color: #ccc;
+  background-color: transparent !important;
+}
+
+.commentButton.active {
+  color: #0d6efd !important;
+}
+
+.commentButton.active:hover {
+  cursor: pointer;
+}
+
+.commentButton:hover {
+  color: black;
+  background-color: transparent !important;
+  border-color: #ccc;
+}
+
+#btnPost {
+  background-color: transparent !important;
+  border: 1px solid transparent !important;
+}
+
+#btnPost:hover {
+  background-color: #f4f2ee !important;
+  border: 1px solid gray !important;
+}
